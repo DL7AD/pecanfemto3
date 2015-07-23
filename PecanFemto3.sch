@@ -1999,11 +1999,6 @@ by exp-lbrs.ulp</description>
 <junction x="48.26" y="111.76"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<label x="25.4" y="2.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="PIO0_6/ADC_1/VDDCMP"/>
-</segment>
-<segment>
 <wire x1="-58.42" y1="38.1" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VDD"/>
 <pinref part="U$27" gate="G$1" pin="2"/>
@@ -2050,7 +2045,7 @@ by exp-lbrs.ulp</description>
 <pinref part="U$4" gate="G$1" pin="PIO0_7/ADC_0"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="VBAT_DIFF" class="0">
 <segment>
 <pinref part="U$22" gate="G$1" pin="2"/>
 <pinref part="U$16" gate="G$1" pin="1"/>
@@ -2063,6 +2058,13 @@ by exp-lbrs.ulp</description>
 <wire x1="40.64" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <junction x="40.64" y="96.52"/>
 <junction x="30.48" y="96.52"/>
+<wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<label x="25.4" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<label x="25.4" y="2.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="PIO0_6/ADC_1/VDDCMP"/>
 </segment>
 </net>
 <net name="N$14" class="0">
