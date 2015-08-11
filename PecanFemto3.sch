@@ -1966,9 +1966,9 @@ by exp-lbrs.ulp</description>
 <pinref part="U$14" gate="G$1" pin="RX_MOSI"/>
 </segment>
 <segment>
-<label x="25.4" y="-12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="PIO0_21/ADC_5"/>
-<wire x1="25.4" y1="-12.7" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="0" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="PIO0_0/ACMP_I1/TDO"/>
+<wire x1="25.4" y1="0" x2="22.86" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -1978,9 +1978,9 @@ by exp-lbrs.ulp</description>
 <pinref part="U$14" gate="G$1" pin="TX_MISO"/>
 </segment>
 <segment>
+<label x="25.4" y="-5.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="PIO0_14/ADC_2/ACMP_I3"/>
 <wire x1="22.86" y1="-5.08" x2="25.4" y2="-5.08" width="0.1524" layer="91"/>
-<label x="25.4" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
