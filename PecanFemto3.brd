@@ -1022,6 +1022,7 @@ design rules under a new name.</description>
 <via x="40.4" y="17.7" extent="1-16" drill="0.3"/>
 <via x="37" y="19.2" extent="1-16" drill="0.3"/>
 <via x="37.1" y="21.1" extent="1-16" drill="0.3"/>
+<via x="31.6" y="21.2" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$10" pad="P$1"/>
