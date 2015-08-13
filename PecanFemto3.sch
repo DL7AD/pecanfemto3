@@ -1577,9 +1577,9 @@ by exp-lbrs.ulp</description>
 <label x="170.18" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PIO0_26"/>
-<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="25.4" y="17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PIO0_25"/>
+<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -1601,9 +1601,9 @@ by exp-lbrs.ulp</description>
 <label x="170.18" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PIO0_16"/>
-<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<label x="25.4" y="22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PIO0_27"/>
+<wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<label x="25.4" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -1613,9 +1613,9 @@ by exp-lbrs.ulp</description>
 <label x="170.18" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PIO0_27"/>
-<wire x1="22.86" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
-<label x="25.4" y="20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PIO0_26"/>
+<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
+<label x="25.4" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -1946,9 +1946,9 @@ by exp-lbrs.ulp</description>
 <label x="170.18" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PIO0_10/I2C0_SCL"/>
-<wire x1="22.86" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<label x="25.4" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PIO0_16"/>
+<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<label x="25.4" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RADIO_SDN" class="0">
@@ -1956,6 +1956,11 @@ by exp-lbrs.ulp</description>
 <pinref part="IC4" gate="G$1" pin="1_SDN"/>
 <wire x1="264.16" y1="25.4" x2="266.7" y2="25.4" width="0.1524" layer="91"/>
 <label x="266.7" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="PIO0_10/I2C0_SCL"/>
+<wire x1="22.86" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<label x="25.4" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2116,9 +2121,9 @@ by exp-lbrs.ulp</description>
 <label x="170.18" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="PIO0_25"/>
-<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="PIO0_24"/>
+<wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
