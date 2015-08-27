@@ -2525,7 +2525,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$21" library="sven" deviceset="CAP-0402" device="" value="100pF"/>
 <part name="U$8" library="sven" deviceset="CAP-0402" device="" value="100pF"/>
@@ -2619,7 +2618,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="GND7" gate="1" x="246.38" y="88.9"/>
 <instance part="GND8" gate="1" x="218.44" y="-12.7"/>
 <instance part="GND14" gate="1" x="185.42" y="93.98" rot="R180"/>
-<instance part="SUPPLY5" gate="G$1" x="162.56" y="-15.24"/>
 <instance part="SUPPLY6" gate="G$1" x="-48.26" y="40.64"/>
 <instance part="U$21" gate="G$1" x="203.2" y="-12.7"/>
 <instance part="U$8" gate="G$1" x="241.3" y="96.52" rot="R270"/>
@@ -3051,15 +3049,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="U$7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<wire x1="162.56" y1="-22.86" x2="162.56" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="-24.13" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="162.56" y="-22.86"/>
-<pinref part="TCXO" gate="TCXO" pin="VCC"/>
-</segment>
-<segment>
 <wire x1="76.2" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="101.6" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
@@ -3429,6 +3418,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="20.32" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO3" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="20_GPIO_3"/>
+<wire x1="233.68" y1="-5.08" x2="233.68" y2="-7.62" width="0.1524" layer="91"/>
+<label x="233.68" y="-7.62" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<wire x1="167.64" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="-24.13" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="TCXO" gate="TCXO" pin="VCC"/>
+<wire x1="162.56" y1="-22.86" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="162.56" y="-22.86"/>
+<label x="162.56" y="-20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
