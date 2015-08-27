@@ -2588,6 +2588,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R5" library="PecanPico6" deviceset="RES-0402" device="" value="10k"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2681,6 +2682,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R5" gate="G$1" x="83.82" y="12.7" rot="R90"/>
 <instance part="D3" gate="G$1" x="83.82" y="25.4"/>
 <instance part="SUPPLY11" gate="G$1" x="83.82" y="30.48"/>
+<instance part="GND13" gate="1" x="289.56" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -2985,6 +2987,16 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="17.78" y1="142.24" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
 <junction x="17.78" y="137.16"/>
 <pinref part="GND31" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="289.56" y1="167.64" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="V_USB"/>
+<wire x1="289.56" y1="170.18" x2="289.56" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="RTC_I"/>
+<wire x1="294.64" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
+<junction x="289.56" y="170.18"/>
 </segment>
 </net>
 <net name="N$4" class="0">

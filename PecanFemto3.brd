@@ -1076,10 +1076,10 @@ design rules under a new name.</description>
 <contactref element="GND28" pad="1"/>
 <contactref element="GND24" pad="1"/>
 <contactref element="GND30" pad="1"/>
-<via x="40.4" y="16.7" extent="1-16" drill="0.3"/>
+<via x="40.2" y="16.7" extent="1-16" drill="0.3"/>
 <via x="41.7" y="16.7" extent="1-16" drill="0.3"/>
 <via x="41.7" y="17.7" extent="1-16" drill="0.3"/>
-<via x="40.4" y="17.7" extent="1-16" drill="0.3"/>
+<via x="40.2" y="17.7" extent="1-16" drill="0.3"/>
 <via x="37" y="19.2" extent="1-16" drill="0.3"/>
 <via x="37.1" y="21.1" extent="1-16" drill="0.3"/>
 <via x="31.6" y="21.2" extent="1-16" drill="0.3"/>
@@ -1095,6 +1095,10 @@ design rules under a new name.</description>
 <contactref element="R5" pad="P$1"/>
 <via x="19.2" y="23.3" extent="1-16" drill="0.3"/>
 <wire x1="21.1" y1="19.9" x2="20.5" y2="19.3" width="0.2" layer="1"/>
+<contactref element="IC3" pad="P$7"/>
+<contactref element="IC3" pad="P$9"/>
+<via x="40.4" y="21.1" extent="1-16" drill="0.3"/>
+<via x="38.9" y="21.1" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$10" pad="P$1"/>
