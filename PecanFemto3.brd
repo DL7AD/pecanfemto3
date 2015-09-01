@@ -8,18 +8,18 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -156,11 +156,11 @@
 <text x="41" y="28.8" size="0.55" layer="51">OUT2</text>
 <text x="41" y="27.2" size="0.55" layer="51">VCC</text>
 <text x="43.1" y="27.9" size="1.5" layer="52" rot="SMR0">Pecan
-Femto 3</text>
+Femto3</text>
 <text x="43.1" y="26.7" size="0.8" layer="52" rot="MR0">2015-Aug</text>
 <text x="28.8" y="15.3" size="0.7" layer="52" rot="MR0">FLY HIGH!</text>
-<text x="19.8" y="24" size="0.5" layer="52" rot="MR180">XIN</text>
-<text x="21.5" y="24" size="0.5" layer="52" rot="MR180">XOUT</text>
+<text x="19.5" y="24" size="0.5" layer="52" rot="MR180">XIN</text>
+<text x="21" y="24" size="0.5" layer="52" rot="MR180">XOUT</text>
 <text x="16.3" y="22.7" size="0.5" layer="52" rot="MR180">GND</text>
 <text x="18.3" y="15.3" size="0.5" layer="52" rot="MR90">GND</text>
 <text x="39.5" y="18.7" size="0.5" layer="52" rot="MR0">GND</text>
@@ -879,8 +879,8 @@ design rules under a new name.</description>
 <element name="U$16" library="sven" package="0402" value="100nF" x="34.8" y="15.7" rot="R180"/>
 <element name="GPSANT" library="PecanFemto4" package="SMD1,27-2,54" value="" x="41.5" y="23.8" rot="R270"/>
 <element name="GND29" library="PecanFemto4" package="SMD1,27-2,54" value="" x="41.5" y="23.8" rot="MR270"/>
-<element name="U$1" library="sven" package="0402" value="100nF" x="16.5" y="23.9" rot="R270"/>
-<element name="TCXO" library="tcxo" package="TCXO_2.0X1.6" value="TXC 7Z-26.000MCG-T" x="18.3" y="23.9"/>
+<element name="U$1" library="sven" package="0402" value="100nF" x="16.3" y="23.9" rot="R270"/>
+<element name="TCXO" library="tcxo" package="TCXO_2.0X1.6" value="TXC 7Z-26.000MCG-T" x="18.2" y="23.9"/>
 <element name="VBAT" library="PecanFemto4" package="SMD1,27-2,54" value="" x="42.1" y="19.9" rot="MR0"/>
 <element name="U$2" library="sven" package="0402" value="100pF" x="20.2" y="22.5" rot="MR270"/>
 <element name="U1" library="TPS62203" package="SOT95P280X145-5N" value="TPS62203DBVT" x="31.9" y="20.1" rot="R180">
@@ -1103,9 +1103,9 @@ design rules under a new name.</description>
 <via x="40.4" y="21.1" extent="1-16" drill="0.3"/>
 <via x="38.9" y="21.1" extent="1-16" drill="0.3"/>
 <contactref element="R7" pad="P$1"/>
-<wire x1="19.27" y1="24.495" x2="19.27" y2="24.43" width="0.2" layer="1"/>
-<wire x1="19.27" y1="24.43" x2="19.95" y2="23.75" width="0.2" layer="1"/>
-<wire x1="19.95" y1="23.75" x2="20.1" y2="23.75" width="0.2" layer="1"/>
+<wire x1="19.17" y1="24.495" x2="19.17" y2="24.43" width="0.2" layer="1"/>
+<wire x1="19.17" y1="24.43" x2="19.85" y2="23.75" width="0.2" layer="1"/>
+<wire x1="19.85" y1="23.75" x2="20.1" y2="23.75" width="0.2" layer="1"/>
 <wire x1="20.1" y1="23.75" x2="20.25" y2="23.6" width="0.2" layer="1"/>
 <wire x1="20.25" y1="23.6" x2="20.25" y2="22.9" width="0.2" layer="1"/>
 <via x="18.5" y="24.5" extent="1-16" drill="0.3"/>
@@ -1275,12 +1275,12 @@ design rules under a new name.</description>
 <contactref element="U$21" pad="P$1"/>
 <contactref element="TCXO" pad="3"/>
 <contactref element="U$2" pad="P$1"/>
-<via x="18.6" y="23.5" extent="1-16" drill="0.3"/>
-<wire x1="18.6" y1="23.5" x2="19.15" y2="22.95" width="0.2" layer="16"/>
-<wire x1="19.15" y1="22.95" x2="20.2" y2="22.95" width="0.2" layer="16"/>
+<via x="18.5" y="23.5" extent="1-16" drill="0.3"/>
+<wire x1="18.5" y1="23.5" x2="19.05" y2="22.95" width="0.2" layer="16"/>
+<wire x1="19.05" y1="22.95" x2="20.2" y2="22.95" width="0.2" layer="16"/>
 <wire x1="20.2" y1="22.95" x2="21.8" y2="22.95" width="0.2" layer="16"/>
-<wire x1="18.6" y1="23.5" x2="18.795" y2="23.305" width="0.2" layer="1"/>
-<wire x1="18.795" y1="23.305" x2="19.27" y2="23.305" width="0.2" layer="1"/>
+<wire x1="18.5" y1="23.5" x2="18.695" y2="23.305" width="0.2" layer="1"/>
+<wire x1="18.695" y1="23.305" x2="19.17" y2="23.305" width="0.2" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$21" pad="P$2"/>
@@ -1602,9 +1602,9 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="20"/>
 <contactref element="U$1" pad="P$2"/>
 <contactref element="TCXO" pad="4"/>
-<wire x1="17.33" y1="23.305" x2="17.33" y2="23.45" width="0.2" layer="1"/>
-<wire x1="17.33" y1="23.45" x2="16.5" y2="23.45" width="0.2" layer="1"/>
-<wire x1="17.33" y1="23.305" x2="17.395" y2="23.305" width="0.2" layer="1"/>
+<wire x1="17.23" y1="23.305" x2="17.33" y2="23.45" width="0.2" layer="1"/>
+<wire x1="17.33" y1="23.45" x2="16.3" y2="23.45" width="0.2" layer="1"/>
+<wire x1="17.23" y1="23.305" x2="17.395" y2="23.305" width="0.2" layer="1"/>
 <wire x1="17.395" y1="23.305" x2="19.4" y2="21.3" width="0.2" layer="1"/>
 <wire x1="19.4" y1="21.3" x2="19.5" y2="21.3" width="0.2" layer="1"/>
 </signal>
