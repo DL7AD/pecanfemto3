@@ -182,7 +182,7 @@ From Silicon Laboratories Si406x datasheet.</description>
 </package>
 <package name="SMD1,27-2,54">
 <description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="2" dy="3.2" layer="1" thermals="no"/>
+<smd name="1" x="0" y="0" dx="2" dy="3.2" layer="1" thermals="no" cream="no"/>
 <text x="-1.1" y="-1.6" size="0.254" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
@@ -1306,56 +1306,6 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="VCC_BCKP" pad="P$21"/>
 <connect gate="G$1" pin="VCC_IO" pad="P$20"/>
 <connect gate="G$1" pin="V_USB" pad="P$7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="tcxo">
-<packages>
-<package name="TCXO_2.0X1.6">
-<smd name="1" x="-0.97" y="0.595" dx="0.44" dy="0.79" layer="1"/>
-<smd name="2" x="0.97" y="0.595" dx="0.44" dy="0.79" layer="1"/>
-<smd name="4" x="-0.97" y="-0.595" dx="0.44" dy="0.79" layer="1"/>
-<smd name="3" x="0.97" y="-0.595" dx="0.44" dy="0.79" layer="1"/>
-<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="21"/>
-<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="21"/>
-<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="21"/>
-<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="21"/>
-<text x="-1" y="1" size="0.2" layer="25">&gt;NAME</text>
-<text x="-1" y="-1.2" size="0.2" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TXC_TCXO">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="VCC" x="-15.24" y="5.08" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
-<pin name="OUT" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="AFC" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="8.636" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TXC_7Z">
-<gates>
-<gate name="TCXO" symbol="TXC_TCXO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TCXO_2.0X1.6">
-<connects>
-<connect gate="TCXO" pin="AFC" pad="1"/>
-<connect gate="TCXO" pin="GND" pad="2"/>
-<connect gate="TCXO" pin="OUT" pad="3"/>
-<connect gate="TCXO" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2495,6 +2445,56 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </deviceset>
 </devicesets>
 </library>
+<library name="tcxo">
+<packages>
+<package name="TCXO_2.0X1.6">
+<smd name="1" x="-0.97" y="-0.595" dx="0.44" dy="0.79" layer="1"/>
+<smd name="2" x="0.97" y="-0.595" dx="0.44" dy="0.79" layer="1"/>
+<smd name="4" x="-0.97" y="0.595" dx="0.44" dy="0.79" layer="1"/>
+<smd name="3" x="0.97" y="0.595" dx="0.44" dy="0.79" layer="1"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="21"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="21"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="21"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="21"/>
+<text x="-1" y="1" size="0.2" layer="25">&gt;NAME</text>
+<text x="-1" y="-1.2" size="0.2" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TXC_TCXO">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="-15.24" y="5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="OUT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="AFC" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-10.16" y="8.636" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TXC_7Z">
+<gates>
+<gate name="TCXO" symbol="TXC_TCXO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TCXO_2.0X1.6">
+<connects>
+<connect gate="TCXO" pin="AFC" pad="1"/>
+<connect gate="TCXO" pin="GND" pad="2"/>
+<connect gate="TCXO" pin="OUT" pad="3"/>
+<connect gate="TCXO" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2680,11 +2680,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="TCXO" library="tcxo" deviceset="TXC_7Z" device="" value="TXC 7Z-26.000MCG-T">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="VBAT" library="PecanFemto4" deviceset="SMD2" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -2790,6 +2785,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$1" library="tcxo" deviceset="TXC_7Z" device=""/>
+<part name="R8" library="PecanPico6" deviceset="RES-0402" device="" value="22k">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2975,11 +2977,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MF" x="162.56" y="-26.67" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="162.56" y="-26.67" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TCXO" gate="TCXO" x="182.88" y="-27.94">
-<attribute name="OC_NEWARK" x="182.88" y="-27.94" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="182.88" y="-27.94" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="182.88" y="-27.94" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="VBAT" gate="1" x="58.42" y="119.38">
 <attribute name="OC_NEWARK" x="58.42" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="58.42" y="119.38" size="1.778" layer="96" display="off"/>
@@ -3085,6 +3082,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MPN" x="66.04" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="66.04" y="78.74"/>
+<instance part="U$1" gate="TCXO" x="182.88" y="-27.94"/>
+<instance part="R8" gate="G$1" x="271.78" y="33.02" rot="R90">
+<attribute name="OC_NEWARK" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="271.78" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -3215,7 +3219,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="-31.75" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="162.56" y="-33.02"/>
-<pinref part="TCXO" gate="TCXO" pin="GND"/>
+<pinref part="U$1" gate="TCXO" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -3296,7 +3300,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="198.12" y1="-33.02" x2="200.66" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="200.66" y1="-33.02" x2="200.66" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="TCXO" gate="TCXO" pin="AFC"/>
+<pinref part="U$1" gate="TCXO" pin="AFC"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
@@ -3527,6 +3531,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="317.5" y1="10.16" x2="317.5" y2="7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
+<wire x1="271.78" y1="38.1" x2="271.78" y2="40.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CS_RADIO" class="0">
 <segment>
@@ -3543,8 +3552,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="RADIO_SDN" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="1_SDN"/>
-<wire x1="264.16" y1="25.4" x2="266.7" y2="25.4" width="0.1524" layer="91"/>
-<label x="266.7" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="264.16" y1="25.4" x2="271.78" y2="25.4" width="0.1524" layer="91"/>
+<label x="279.4" y="25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="27.94" x2="271.78" y2="25.4" width="0.1524" layer="91"/>
+<junction x="271.78" y="25.4"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PIO0_10/I2C0_SCL"/>
@@ -3557,11 +3570,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="198.12" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="TCXO" gate="TCXO" pin="OUT"/>
 <wire x1="203.2" y1="-22.86" x2="210.82" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="203.2" y="-22.86"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-22.86" x2="210.82" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="TCXO" pin="OUT"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3843,10 +3856,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="167.64" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="-24.13" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="TCXO" gate="TCXO" pin="VCC"/>
 <wire x1="162.56" y1="-22.86" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="162.56" y="-22.86"/>
 <label x="162.56" y="-20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="TCXO" pin="VCC"/>
 </segment>
 </net>
 <net name="N$20" class="0">
