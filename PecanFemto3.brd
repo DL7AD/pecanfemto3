@@ -1011,7 +1011,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="20.2" y="22.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="20.2" y="22.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="U1" library="TPS62203" package="SOT95P280X145-5N" value="TPS62203DBVT" x="31.9" y="20.1" rot="R180">
+<element name="U1" library="TPS62203" package="SOT95P280X145-5N" value="TPS62205DBVT" x="31.9" y="20.1" rot="R180">
 <attribute name="SUPPLIER" value="Texas Instruments" x="31.9" y="20.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="TPS62203DBVT" x="31.9" y="20.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="8458049" x="31.9" y="20.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1094,7 +1094,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="39.2" y="27.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="39.2" y="27.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="PecanPico6" package="0402" value="22k" x="22.1" y="22.6" rot="R90">
+<element name="R6" library="PecanPico6" package="0402" value="10k" x="22.1" y="22.6" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="22.1" y="22.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="22.1" y="22.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="22.1" y="22.6" size="1.778" layer="27" rot="R90" display="off"/>

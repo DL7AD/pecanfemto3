@@ -2695,7 +2695,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U1" library="TPS62203" deviceset="TPS62203DBVT" device="">
+<part name="U1" library="TPS62203" deviceset="TPS62203DBVT" device="" value="TPS62205DBVT">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 </part>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -2779,7 +2779,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </part>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R6" library="PecanPico6" deviceset="RES-0402" device="" value="22k">
+<part name="R6" library="PecanPico6" deviceset="RES-0402" device="" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
