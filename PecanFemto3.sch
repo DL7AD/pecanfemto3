@@ -1157,49 +1157,49 @@ by exp-lbrs.ulp</description>
 <wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<smd name="P$1" x="-3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$2" x="-3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$3" x="-3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$4" x="-3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$5" x="-3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$6" x="-3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$7" x="-3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$8" x="-3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$9" x="-3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$10" x="-2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="-1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="-1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="-0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$14" x="0" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$15" x="0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$16" x="1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$17" x="1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$18" x="2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$19" x="3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$20" x="3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$21" x="3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$22" x="3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$23" x="3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$24" x="3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$25" x="3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$26" x="3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$27" x="3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="P$28" x="2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$29" x="1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$30" x="1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$31" x="0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$32" x="0" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$33" x="-0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$34" x="-1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$35" x="-1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$36" x="-2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$37" x="1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$38" x="0" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$39" x="-1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$40" x="0" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$41" x="-1.3" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$42" x="0" y="1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$43" x="-1.3" y="1.3" dx="0.5" dy="0.5" layer="1"/>
+<smd name="1" x="-3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
+<smd name="2" x="-3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
+<smd name="3" x="-3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
+<smd name="4" x="-3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
+<smd name="5" x="-3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
+<smd name="6" x="-3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
+<smd name="7" x="-3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
+<smd name="8" x="-3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
+<smd name="9" x="-3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
+<smd name="10" x="-2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="-0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
+<smd name="20" x="3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
+<smd name="21" x="3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
+<smd name="22" x="3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
+<smd name="23" x="3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
+<smd name="24" x="3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
+<smd name="25" x="3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
+<smd name="26" x="3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
+<smd name="27" x="3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
+<smd name="28" x="2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="29" x="1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="30" x="1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="31" x="0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="32" x="0" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="33" x="-0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="34" x="-1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="35" x="-1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="36" x="-2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="GND_5" x="1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_4" x="0" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_3" x="-1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_6" x="0" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_2" x="-1.3" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_7" x="0" y="1.3" dx="0.5" dy="0.5" layer="1"/>
+<smd name="GND_1" x="-1.3" y="1.3" dx="0.5" dy="0.5" layer="1"/>
 <text x="-2.4" y="2.1" size="0.5" layer="25">&gt;NAME</text>
 <text x="-2.4" y="-2.4" size="0.5" layer="27">&gt;VALUE</text>
 </package>
@@ -1263,49 +1263,49 @@ by exp-lbrs.ulp</description>
 <devices>
 <device name="" package="EVA7M">
 <connects>
-<connect gate="G$1" pin="ANT_DET" pad="P$12"/>
-<connect gate="G$1" pin="ANT_OFF" pad="P$35"/>
-<connect gate="G$1" pin="ANT_OK" pad="P$34"/>
-<connect gate="G$1" pin="D_SEL" pad="P$32"/>
-<connect gate="G$1" pin="EXTINT" pad="P$13"/>
-<connect gate="G$1" pin="GND" pad="P$18"/>
-<connect gate="G$1" pin="GND_PAD1" pad="P$37"/>
-<connect gate="G$1" pin="GND_PAD2" pad="P$38"/>
-<connect gate="G$1" pin="GND_PAD3" pad="P$39"/>
-<connect gate="G$1" pin="GND_PAD4" pad="P$40"/>
-<connect gate="G$1" pin="GND_PAD5" pad="P$41"/>
-<connect gate="G$1" pin="GND_PAD6" pad="P$42"/>
-<connect gate="G$1" pin="GND_PAD7" pad="P$43"/>
-<connect gate="G$1" pin="RESERVED10" pad="P$10"/>
-<connect gate="G$1" pin="RESERVED11" pad="P$11"/>
-<connect gate="G$1" pin="RESERVED17" pad="P$17"/>
-<connect gate="G$1" pin="RESERVED22" pad="P$22"/>
-<connect gate="G$1" pin="RESERVED23" pad="P$23"/>
-<connect gate="G$1" pin="RESERVED24" pad="P$24"/>
-<connect gate="G$1" pin="RESERVED25" pad="P$25"/>
-<connect gate="G$1" pin="RESERVED26" pad="P$26"/>
-<connect gate="G$1" pin="RESERVED27" pad="P$27"/>
-<connect gate="G$1" pin="RESERVED28" pad="P$28"/>
-<connect gate="G$1" pin="RESERVED3" pad="P$3"/>
-<connect gate="G$1" pin="RESERVED33" pad="P$33"/>
-<connect gate="G$1" pin="RESERVED36" pad="P$36"/>
-<connect gate="G$1" pin="RESERVED4" pad="P$4"/>
-<connect gate="G$1" pin="RESET" pad="P$14"/>
-<connect gate="G$1" pin="RF_GND" pad="P$2"/>
-<connect gate="G$1" pin="RF_IN" pad="P$1"/>
-<connect gate="G$1" pin="RTC_I" pad="P$9"/>
-<connect gate="G$1" pin="RTC_O" pad="P$8"/>
-<connect gate="G$1" pin="RX_MOSI" pad="P$15"/>
-<connect gate="G$1" pin="SCL_SCK" pad="P$29"/>
-<connect gate="G$1" pin="SDA_CS" pad="P$30"/>
-<connect gate="G$1" pin="TIMEPULSE" pad="P$31"/>
-<connect gate="G$1" pin="TX_MISO" pad="P$16"/>
-<connect gate="G$1" pin="USB_DM" pad="P$5"/>
-<connect gate="G$1" pin="USB_DP" pad="P$6"/>
-<connect gate="G$1" pin="VCC" pad="P$19"/>
-<connect gate="G$1" pin="VCC_BCKP" pad="P$21"/>
-<connect gate="G$1" pin="VCC_IO" pad="P$20"/>
-<connect gate="G$1" pin="V_USB" pad="P$7"/>
+<connect gate="G$1" pin="ANT_DET" pad="12"/>
+<connect gate="G$1" pin="ANT_OFF" pad="35"/>
+<connect gate="G$1" pin="ANT_OK" pad="34"/>
+<connect gate="G$1" pin="D_SEL" pad="32"/>
+<connect gate="G$1" pin="EXTINT" pad="13"/>
+<connect gate="G$1" pin="GND" pad="18"/>
+<connect gate="G$1" pin="GND_PAD1" pad="GND_5"/>
+<connect gate="G$1" pin="GND_PAD2" pad="GND_4"/>
+<connect gate="G$1" pin="GND_PAD3" pad="GND_3"/>
+<connect gate="G$1" pin="GND_PAD4" pad="GND_6"/>
+<connect gate="G$1" pin="GND_PAD5" pad="GND_2"/>
+<connect gate="G$1" pin="GND_PAD6" pad="GND_7"/>
+<connect gate="G$1" pin="GND_PAD7" pad="GND_1"/>
+<connect gate="G$1" pin="RESERVED10" pad="10"/>
+<connect gate="G$1" pin="RESERVED11" pad="11"/>
+<connect gate="G$1" pin="RESERVED17" pad="17"/>
+<connect gate="G$1" pin="RESERVED22" pad="22"/>
+<connect gate="G$1" pin="RESERVED23" pad="23"/>
+<connect gate="G$1" pin="RESERVED24" pad="24"/>
+<connect gate="G$1" pin="RESERVED25" pad="25"/>
+<connect gate="G$1" pin="RESERVED26" pad="26"/>
+<connect gate="G$1" pin="RESERVED27" pad="27"/>
+<connect gate="G$1" pin="RESERVED28" pad="28"/>
+<connect gate="G$1" pin="RESERVED3" pad="3"/>
+<connect gate="G$1" pin="RESERVED33" pad="33"/>
+<connect gate="G$1" pin="RESERVED36" pad="36"/>
+<connect gate="G$1" pin="RESERVED4" pad="4"/>
+<connect gate="G$1" pin="RESET" pad="14"/>
+<connect gate="G$1" pin="RF_GND" pad="2"/>
+<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="RTC_I" pad="9"/>
+<connect gate="G$1" pin="RTC_O" pad="8"/>
+<connect gate="G$1" pin="RX_MOSI" pad="15"/>
+<connect gate="G$1" pin="SCL_SCK" pad="29"/>
+<connect gate="G$1" pin="SDA_CS" pad="30"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="31"/>
+<connect gate="G$1" pin="TX_MISO" pad="16"/>
+<connect gate="G$1" pin="USB_DM" pad="5"/>
+<connect gate="G$1" pin="USB_DP" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="19"/>
+<connect gate="G$1" pin="VCC_BCKP" pad="21"/>
+<connect gate="G$1" pin="VCC_IO" pad="20"/>
+<connect gate="G$1" pin="V_USB" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2690,7 +2690,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U1" library="TPS62203" deviceset="TPS62203DBVT" device="" value="TPS62205DBVT">
+<part name="IC2" library="TPS62203" deviceset="TPS62203DBVT" device="" value="TPS62205DBVT">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 </part>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -2785,7 +2785,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$1" library="tcxo" deviceset="TXC_7Z" device=""/>
+<part name="IC6" library="tcxo" deviceset="TXC_7Z" device="" value="KT2016K26000BCW18ZAS"/>
 <part name="R8" library="PecanPico6" deviceset="RES-0402" device="" value="22k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -2927,7 +2927,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </instance>
 <instance part="GND11" gate="1" x="340.36" y="30.48"/>
 <instance part="GND9" gate="1" x="350.52" y="-35.56"/>
-<instance part="GND22" gate="1" x="200.66" y="-40.64"/>
+<instance part="GND22" gate="1" x="205.74" y="-40.64"/>
 <instance part="L3" gate="G$1" x="134.62" y="111.76">
 <attribute name="OC_NEWARK" x="134.62" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="134.62" y="111.76" size="1.778" layer="96" display="off"/>
@@ -2987,7 +2987,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MF" x="210.82" y="-12.7" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="210.82" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="A" x="109.22" y="106.68">
+<instance part="IC2" gate="A" x="109.22" y="106.68">
 <attribute name="MF" x="109.22" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="350.52" y="-7.62"/>
@@ -3082,7 +3082,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="MPN" x="66.04" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="66.04" y="78.74"/>
-<instance part="U$1" gate="TCXO" x="182.88" y="-27.94"/>
+<instance part="IC6" gate="TCXO" x="182.88" y="-27.94"/>
 <instance part="R8" gate="G$1" x="271.78" y="33.02" rot="R90">
 <attribute name="OC_NEWARK" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
@@ -3219,7 +3219,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="-31.75" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="162.56" y="-33.02"/>
-<pinref part="U$1" gate="TCXO" pin="GND"/>
+<pinref part="IC6" gate="TCXO" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -3297,16 +3297,16 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C15" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="-33.02" x2="200.66" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-33.02" x2="205.74" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="200.66" y1="-33.02" x2="200.66" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="TCXO" pin="AFC"/>
+<wire x1="205.74" y1="-33.02" x2="205.74" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="TCXO" pin="AFC"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="96.52" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="U1" gate="A" pin="GND"/>
+<pinref part="IC2" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -3483,7 +3483,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="147.32" y1="111.76" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<pinref part="U1" gate="A" pin="FB"/>
+<pinref part="IC2" gate="A" pin="FB"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="VREFP"/>
@@ -3574,7 +3574,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="203.2" y="-22.86"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-22.86" x2="210.82" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="TCXO" pin="OUT"/>
+<pinref part="IC6" gate="TCXO" pin="OUT"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3651,8 +3651,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="88.9" y="111.76"/>
 <pinref part="VBAT" gate="1" pin="P"/>
 <wire x1="60.96" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="EN"/>
-<pinref part="U1" gate="A" pin="VI"/>
+<pinref part="IC2" gate="A" pin="EN"/>
+<pinref part="IC2" gate="A" pin="VI"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="109.22" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <junction x="66.04" y="111.76"/>
@@ -3767,7 +3767,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="SW"/>
+<pinref part="IC2" gate="A" pin="SW"/>
 </segment>
 </net>
 <net name="VCC_GPS" class="0">
@@ -3859,7 +3859,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="162.56" y1="-22.86" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="162.56" y="-22.86"/>
 <label x="162.56" y="-20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$1" gate="TCXO" pin="VCC"/>
+<pinref part="IC6" gate="TCXO" pin="VCC"/>
 </segment>
 </net>
 <net name="N$20" class="0">
